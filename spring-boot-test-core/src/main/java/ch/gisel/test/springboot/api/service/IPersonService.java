@@ -5,6 +5,7 @@ import ch.gisel.test.springboot.api.dto.PersonDTO;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 
+// http://localhost:8080/services/person?_wadl
 @Path("/person")
 public interface IPersonService {
 
