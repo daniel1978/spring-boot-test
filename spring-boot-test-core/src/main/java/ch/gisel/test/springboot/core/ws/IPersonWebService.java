@@ -1,4 +1,4 @@
-package ch.gisel.test.springboot.ws;
+package ch.gisel.test.springboot.core.ws;
 
 import ch.gisel.test.springboot.api.dto.PersonDTO;
 

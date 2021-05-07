@@ -1,7 +1,7 @@
 package ch.gisel.test.springboot.ws.service.impl;
 
-import ch.gisel.test.springboot.ws.dto.PersonDTO;
-import ch.gisel.test.springboot.ws.rest.IPersonService;
+import ch.gisel.test.springboot.api.dto.PersonDTO;
+import ch.gisel.test.springboot.api.service.IPersonService;
 import ch.gisel.test.springboot.ws.service.IPersonWebService;
 import org.springframework.stereotype.Service;
 

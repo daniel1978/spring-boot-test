@@ -7,7 +7,7 @@
 
     <jaxrs-client:client id="personServiceClient"
                   address="http://localhost:8080/services"
-                  serviceClass="ch.gisel.test.springboot.ws.rest.IPersonService">
+                  serviceClass="ch.gisel.test.springboot.api.service.IPersonService">
         <jaxrs-client:providers>
             <bean id="jsonProvider" class="com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider" />
         </jaxrs-client:providers>

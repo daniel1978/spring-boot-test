@@ -1,4 +1,4 @@
-package ch.gisel.test.springboot.impl.service;
+package ch.gisel.test.springboot.core.service;
 
 import ch.gisel.test.springboot.api.dto.PersonDTO;
 import ch.gisel.test.springboot.api.service.IPersonService;

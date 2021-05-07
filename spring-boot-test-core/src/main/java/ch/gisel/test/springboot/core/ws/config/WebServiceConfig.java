@@ -1,6 +1,6 @@
-package ch.gisel.test.springboot.ws.config;
+package ch.gisel.test.springboot.core.ws.config;
 
-import ch.gisel.test.springboot.ws.IPersonWebService;
+import ch.gisel.test.springboot.core.ws.IPersonWebService;
 import org.apache.cxf.Bus;
 import org.apache.cxf.jaxws.EndpointImpl;
 import org.springframework.context.annotation.Bean;

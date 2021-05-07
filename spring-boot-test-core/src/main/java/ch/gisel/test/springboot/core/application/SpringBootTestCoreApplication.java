@@ -1,4 +1,4 @@
-package ch.gisel.test.springboot.application;
+package ch.gisel.test.springboot.core.application;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.jaxrs.json.JacksonJaxbJsonProvider;
@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = "ch.gisel.test.springboot")
+@ComponentScan(basePackages = "ch.gisel.test.springboot.core")
 public class SpringBootTestCoreApplication {
 
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
 package ch.gisel.test.springboot.ws.service;
 
-import ch.gisel.test.springboot.ws.dto.PersonDTO;
+import ch.gisel.test.springboot.api.dto.PersonDTO;
 
 import javax.jws.WebMethod;
 import javax.jws.WebParam;
