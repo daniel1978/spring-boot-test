@@ -6,6 +6,7 @@ import ch.gisel.test.springboot.ws.service.IPersonWebService;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.util.Date;
 
 @Service
 public class PersonWebService implements IPersonWebService {
@@ -20,6 +21,10 @@ public class PersonWebService implements IPersonWebService {
 
     @Override
     public PersonDTO loadPerson(long id) {
-        return personService.loadPerson(id);
+        long start = new Date().getTime();
+        PersonDTO person = personService.loadPerson(id);
+        long end = new Date().getTime();
+        person.setComment("Duration: " + (end - start));
+        return person;
     }
 }
